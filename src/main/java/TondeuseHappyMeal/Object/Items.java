@@ -8,6 +8,6 @@ public class Items{ // creation de la classe GrilleObject qui servira pour la cr
     public Items(int L, int H){
         this.positionL = L;
         this.positionH = H;
-        char [L][H]positionItems;
+        char [L][H];
     }
 }

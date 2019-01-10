@@ -12,7 +12,7 @@ public class Tondeuse{ // creation de la classe GrilleObject qui servira pour la
         this.positionTondeuse[positionL][positionH]; // assigne la position de la tondeuse
     }
 
-    public int getDebrouissalleuse() {
+    public int getDropDebrouissalleuse() {
         return debrouissalleuse+=1;
     }
 }
