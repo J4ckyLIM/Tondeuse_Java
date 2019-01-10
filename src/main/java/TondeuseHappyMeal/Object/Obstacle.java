@@ -1,4 +1,13 @@
 package TondeuseHappyMeal.Object;
 
-public class Obstacle {
+public class Obstacle{ // creation de la classe GrilleObject qui servira pour la creation d'objet dans la grille
+    private int positionL;
+    private int positionH;
+    private char [][]positionObstacle;
+
+    public Obstacle(int L, int H){
+        this.positionL = L;
+        this.positionH = H;
+    }
 }
+
