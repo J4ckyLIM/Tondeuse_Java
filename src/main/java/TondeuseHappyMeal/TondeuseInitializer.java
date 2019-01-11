@@ -44,7 +44,7 @@ import java.util.Scanner;
     private static void afficherDemandeInstruction(){
 
     }
-    private static void afficherPositionFinale(){
+    public static void afficherPositionFinale(){
         System.out.println(Tondeuse.positionTondeuse);
-
+    }
 }

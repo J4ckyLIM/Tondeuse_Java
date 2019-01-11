@@ -4,10 +4,10 @@ import java.io.*;
 public class TestingFile {
     public void testFile(){
         try{
-            FileReader fileReader = new FileReader();
+            FileReader fileReader = new FileReader("/Users/boutothugoanthony/Documents/JAVA/Tondeuse_Java");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-            FileWriter fileWriter = new FileWriter();
+            FileWriter fileWriter = new FileWriter("/Users/boutothugoanthony/Documents/JAVA/Tondeuse_Java");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             String line = bufferedReader.readLine();
