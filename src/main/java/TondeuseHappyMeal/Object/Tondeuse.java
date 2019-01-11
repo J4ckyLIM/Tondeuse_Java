@@ -4,7 +4,7 @@ public class Tondeuse{ // creation de la classe GrilleObject qui servira pour la
     public int positionL;
     public int positionH;
     public char [][]positionTondeuse;
-    public int debrouissalleuse = 0;
+    public int debroussailleuse = 0;
 
     public Tondeuse(int L, int H){ // on rentre en parametre la position de la tondeuse
         this.positionL = L; // assigne la position en longueur
@@ -14,8 +14,6 @@ public class Tondeuse{ // creation de la classe GrilleObject qui servira pour la
     }
 
     public int getDropDebrouissalleuse() {
-        return debrouissalleuse+=1;
+        return debroussailleuse+=1;
     }
 }
-
-

@@ -46,5 +46,5 @@ import java.util.Scanner;
     }
     private static void afficherPositionFinale(){
         System.out.println(Tondeuse.positionTondeuse);
-    }
+
 }
