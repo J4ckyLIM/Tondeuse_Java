@@ -19,7 +19,6 @@ public enum Ordre {
             Tondeuse.Avancer();
         }
     };
-
     abstract void executer(final Tondeuse tondeuse);
     public static void RotationGauche(){
 
