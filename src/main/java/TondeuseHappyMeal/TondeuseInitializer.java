@@ -34,6 +34,7 @@ import java.util.Scanner;
             System.out.println(MESSAGE_ACCUEIL);
         }
 
+<<<<<<< HEAD
         private static void initialiserTondeuseSurGrille(){
 
         }
@@ -55,3 +56,10 @@ import java.util.Scanner;
 
         }
     }
+=======
+    }
+    public static void afficherPositionFinale(){
+        System.out.println(Tondeuse.positionTondeuse);
+    }
+}
+>>>>>>> master
