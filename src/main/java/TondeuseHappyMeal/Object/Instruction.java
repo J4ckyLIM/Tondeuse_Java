@@ -1,7 +1,8 @@
 package TondeuseHappyMeal.Object;
 
-public class Instruction {
+/*public class Instruction {
     RotationDroite {
         
     }
 }
+*/

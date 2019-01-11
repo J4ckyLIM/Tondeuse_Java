@@ -1,5 +1,6 @@
 package TondeuseHappyMeal;
 import TondeuseHappyMeal.Object.Grille;
+import TondeuseHappyMeal.Object.Tondeuse;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -17,7 +18,7 @@ import java.util.Scanner;
         String folder = s.nextLine();
         // Instantiation de la classe reader
         Reader file = new Reader(folder);
-        //afficherMessageAccueil();
+        afficherMessageAccueil();
         Grille LaPelouse = new Grille(12,20); // Initiation de la pelouse à tondre
         LaPelouse.afficherGrille();
         //initialiserTondeuseSurGrille();
@@ -25,7 +26,25 @@ import java.util.Scanner;
         //initialiserItemsSurGrille();
         //afficherDemandeInstruction();
         //executerInstruction();
-        //afficherPositionFinale();
+        afficherPositionFinale();
 
+    }
+    private static void afficherMessageAccueil() {
+        System.out.println(MESSAGE_ACCUEIL);
+    }
+    private static void initialiserTondeuseSurGrille(){
+        for
+    }
+    private static void initialiserObjetsSurGrille(){
+
+    }
+    private static void initialiserItemsSurGrille(){
+
+    }
+    private static void afficherDemandeInstruction(){
+
+    }
+    private static void afficherPositionFinale(){
+        System.out.println(Tondeuse.positionTondeuse);
     }
 }
